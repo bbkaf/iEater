@@ -843,7 +843,7 @@ class iEATViewController: BaseViewController, SFSpeechRecognizerDelegate {
     
     override func motionEnded(_ motion: UIEventSubtype, with event: UIEvent?) {
         if motion == .motionShake {
-            self.speechButton.isHidden = !self.speechButton.isHidden
+            //self.speechButton.isHidden = !self.speechButton.isHidden
             print("Shaking")
         }
     }
