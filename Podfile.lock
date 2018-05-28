@@ -1,0 +1,26 @@
+PODS:
+  - Charts (3.0.1):
+    - Charts/Core (= 3.0.1)
+  - Charts/Core (3.0.1)
+  - ESTabBarController-swift (2.3)
+  - pop (1.0.9)
+
+DEPENDENCIES:
+  - Charts
+  - ESTabBarController-swift
+  - pop
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Charts
+    - ESTabBarController-swift
+    - pop
+
+SPEC CHECKSUMS:
+  Charts: 0e84f4418e87dad6a9edde221fba37ebb51d3ba7
+  ESTabBarController-swift: 23011ffbee6cd66a37309f00c7c21c9dd63c17de
+  pop: f667631a5108a2e60d9e8797c9b32ddaf2080bce
+
+PODFILE CHECKSUM: ff05cf851624bd7687bf460eaa02322516fbc733
+
+COCOAPODS: 1.5.2

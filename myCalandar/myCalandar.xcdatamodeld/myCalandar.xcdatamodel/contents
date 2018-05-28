@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="11759" systemVersion="16D32" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="Users" representedClassName="Users" syncable="YES" codeGenerationType="class">
+        <attribute name="diary" optional="YES" attributeType="Binary" syncable="YES"/>
+        <attribute name="foodAmountArray" optional="YES" attributeType="Binary" syncable="YES"/>
+        <attribute name="foodArray" optional="YES" attributeType="Binary" syncable="YES"/>
+        <attribute name="monthArray" optional="YES" attributeType="Binary" syncable="YES"/>
+        <attribute name="nuitritionArray" optional="YES" attributeType="Binary" syncable="YES"/>
+        <attribute name="orderArray" optional="YES" attributeType="Binary" syncable="YES"/>
+        <attribute name="photoArray" optional="YES" attributeType="Binary" syncable="YES"/>
+        <attribute name="step" optional="YES" attributeType="Binary" syncable="YES"/>
+    </entity>
+    <entity name="UsersRecipes" representedClassName="UsersRecipes" syncable="YES" codeGenerationType="class">
+        <attribute name="recipeDiary" optional="YES" attributeType="Binary" syncable="YES"/>
+        <attribute name="recipeFoodAmountArray" optional="YES" attributeType="Binary" syncable="YES"/>
+        <attribute name="recipeFoodArray" optional="YES" attributeType="Binary" syncable="YES"/>
+        <attribute name="recipeName" optional="YES" attributeType="Binary" syncable="YES"/>
+        <attribute name="recipeNuitritionArray" optional="YES" attributeType="Binary" syncable="YES"/>
+        <attribute name="recipePhotoArray" optional="YES" attributeType="Binary" syncable="YES"/>
+    </entity>
+    <entity name="UsersRecipesOverview" representedClassName="UsersRecipesOverview" syncable="YES" codeGenerationType="class">
+        <attribute name="totalRecipeDictionary" optional="YES" attributeType="Binary" syncable="YES"/>
+        <attribute name="totalRecipeNameArray" optional="YES" attributeType="Binary" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Users" positionX="-45" positionY="0" width="128" height="165"/>
+        <element name="UsersRecipes" positionX="-45" positionY="63" width="128" height="135"/>
+        <element name="UsersRecipesOverview" positionX="-36" positionY="90" width="128" height="75"/>
+    </elements>
+</model>
