@@ -236,8 +236,7 @@ class ViewController: BaseViewController {
     }
     
     func keepMovingCollectionView(){
-        
-        
+
         if self.startFromX == CGFloat(1){
             print("this startFromX \(startFromX)")
             self.startFromX = CGFloat((Double(self.photoCollectionView.layer.bounds.width) + 2.0) * Double(nuitritionArray.count) * 500.0)

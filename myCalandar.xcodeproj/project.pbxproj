@@ -80,6 +80,7 @@
 		04F587F61E71BA57001A20AF /* RecipeCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F587F51E71BA57001A20AF /* RecipeCollectionViewCell.swift */; };
 		42F2AADC6AC73CBD0012A8C6 /* Pods_myCalandar.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C7B3295C32FA304B0D16865 /* Pods_myCalandar.framework */; };
 		B785498AB67DD8528C03F6EE /* Pods_myCalandarUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9DA866483F471EED5BE76937 /* Pods_myCalandarUITests.framework */; };
+		DA388729214D53AD00A96415 /* KeyChainUtility.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA388728214D53AD00A96415 /* KeyChainUtility.swift */; };
 		DA4C1E461F97A61400185CC5 /* CookingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA4C1E451F97A61400185CC5 /* CookingViewController.swift */; };
 		DA90C4871F8F7D16004C36AB /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA90C4861F8F7D16004C36AB /* BaseViewController.swift */; };
 		DAB3B79C1F6FC0CE00DF3174 /* BatteryVer2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAB3B79B1F6FC0CE00DF3174 /* BatteryVer2ViewController.swift */; };
@@ -191,6 +192,7 @@
 		5B4BC967C8ECD36C1C775C54 /* Pods-myCalandarUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-myCalandarUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-myCalandarUITests/Pods-myCalandarUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		5C723C5D21CB9A3C82BD3F73 /* Pods-myCalandarTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-myCalandarTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-myCalandarTests/Pods-myCalandarTests.debug.xcconfig"; sourceTree = "<group>"; };
 		9DA866483F471EED5BE76937 /* Pods_myCalandarUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_myCalandarUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA388728214D53AD00A96415 /* KeyChainUtility.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeyChainUtility.swift; sourceTree = "<group>"; };
 		DA4C1E451F97A61400185CC5 /* CookingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CookingViewController.swift; sourceTree = "<group>"; };
 		DA90C4861F8F7D16004C36AB /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
 		DAB3B79B1F6FC0CE00DF3174 /* BatteryVer2ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BatteryVer2ViewController.swift; sourceTree = "<group>"; };
@@ -400,6 +402,7 @@
 		04F587EE1E6B3048001A20AF /* ESTabBar */ = {
 			isa = PBXGroup;
 			children = (
+				DA388728214D53AD00A96415 /* KeyChainUtility.swift */,
 				04F587941E6B2FE3001A20AF /* Content */,
 				04F5879C1E6B2FE3001A20AF /* Framework */,
 				04F587A31E6B2FE3001A20AF /* Resources */,
@@ -732,6 +735,7 @@
 				046C66C41E018CE70017359D /* DataBaseController.swift in Sources */,
 				DA4C1E461F97A61400185CC5 /* CookingViewController.swift in Sources */,
 				04F587F61E71BA57001A20AF /* RecipeCollectionViewCell.swift in Sources */,
+				DA388729214D53AD00A96415 /* KeyChainUtility.swift in Sources */,
 				04F587E41E6B2FE3001A20AF /* ESTabBarItem.swift in Sources */,
 				04121ED21E9212FE0008834B /* FoodItemWithNickNameTableViewCell.swift in Sources */,
 				04DB3FD01DFF05CA000FFF1B /* BackTableVC.swift in Sources */,

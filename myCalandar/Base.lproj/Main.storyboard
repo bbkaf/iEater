@@ -1097,7 +1097,7 @@
                                     <constraint firstAttribute="width" secondItem="xFu-Ow-IPh" secondAttribute="height" multiplier="1:1" id="SJk-h9-E2s"/>
                                 </constraints>
                             </imageView>
-                            <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="characterWrap" translatesAutoresizingMaskIntoConstraints="NO" id="FFE-XA-ky1">
+                            <button hidden="YES" opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="characterWrap" translatesAutoresizingMaskIntoConstraints="NO" id="FFE-XA-ky1">
                                 <rect key="frame" x="160" y="269" width="45" height="44.999999999999886"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="6"/>
                                 <state key="normal" backgroundImage="muted"/>
