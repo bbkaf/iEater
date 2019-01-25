@@ -21,6 +21,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // Override point for customization after application launch.
         
         foodItemArrayForSpeech = NSArray(contentsOfFile: pathOffoodItemArray!)! as! [[String]]
+//        KeychainService.savePassword(token: "newnew ieater123123123456456")
+        let password = KeychainService.loadPassword()
+        print(password)// password = "Pa55worD"
         return true
     }
 

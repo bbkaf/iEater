@@ -1488,43 +1488,43 @@ extension iEATViewController: UIImagePickerControllerDelegate, UINavigationContr
         imageManager.requestImageData(for: result , options: nil, resultHandler:{
             (data, responseString, imageOriet, info) -> Void in
             let imageData: NSData = data! as NSData
-            if let imageSource = CGImageSourceCreateWithData(imageData, nil) {
-                let imageProperties2 = CGImageSourceCopyPropertiesAtIndex(imageSource, 0, nil)! as Dictionary
-                let exifDict = imageProperties2[kCGImagePropertyExifDictionary]
-                let dateTimeOriginal = exifDict![kCGImagePropertyExifDateTimeOriginal]
-                let dateTimeOriginal1 = exifDict![kCGImagePropertyDepth]
-                let dateTimeOriginal2 = exifDict![kCGImagePropertyWidth]
-                let dateTimeOriginal3 = exifDict![kCGImagePropertyGPSDOP]
-                let dateTimeOriginal4 = exifDict![kCGImagePropertyExifOECF]
-                let dateTimeOriginal5 = exifDict![kCGImagePropertyDPIWidth]
-                let dateTimeOriginal6 = exifDict![kCGImagePropertyGPSTrack]
-                let dateTimeOriginal7 = exifDict![kCGImagePropertyExifGamma]
-                let dateTimeOriginal8 = exifDict![kCGImagePropertyDepth]
-                let dateTimeOriginal9 = exifDict![kCGImagePropertyPixelWidth]
-                let dateTimeOriginal10 = exifDict![kCGImagePropertyJFIFYDensity]
-                print("---------------------------------------------------")
-                print(exifDict)
-                print("---------------------------------------------------")
-//                print("dateTimeOriginal: \(dateTimeOriginal)")
-//                print("dateTimeOriginal: \(dateTimeOriginal1)")
-//                print("dateTimeOriginal: \(dateTimeOriginal2)")
-//                print("dateTimeOriginal: \(dateTimeOriginal3)")
-//                print("dateTimeOriginal: \(String(describing: dateTimeOriginal4))")
-//                print("dateTimeOriginal: \(dateTimeOriginal5)")
-//                print("dateTimeOriginal: \(dateTimeOriginal6)")
-//                print("dateTimeOriginal: \(dateTimeOriginal7)")
-//                print("dateTimeOriginal: \(dateTimeOriginal8)")
-//                print("dateTimeOriginal: \(dateTimeOriginal9)")
-//                print("dateTimeOriginal: \(dateTimeOriginal10)")
-                
-                for (key, value) in imageProperties2 {
-                    print("asdasdadasd in dic")
-                    print(key)
-                    print(value)
-                }
-                print("imageProperties2: \(imageProperties2)")
-               print("imageProperties2: \(imageProperties2.count)")
-            }
+//            if let imageSource = CGImageSourceCreateWithData(imageData, nil) {
+//                let imageProperties2 = CGImageSourceCopyPropertiesAtIndex(imageSource, 0, nil)! as Dictionary
+//                let exifDict = imageProperties2[kCGImagePropertyExifDictionary]
+//                let dateTimeOriginal = exifDict![kCGImagePropertyExifDateTimeOriginal]
+//                let dateTimeOriginal1 = exifDict![kCGImagePropertyDepth]
+//                let dateTimeOriginal2 = exifDict![kCGImagePropertyWidth]
+//                let dateTimeOriginal3 = exifDict![kCGImagePropertyGPSDOP]
+//                let dateTimeOriginal4 = exifDict![kCGImagePropertyExifOECF]
+//                let dateTimeOriginal5 = exifDict![kCGImagePropertyDPIWidth]
+//                let dateTimeOriginal6 = exifDict![kCGImagePropertyGPSTrack]
+//                let dateTimeOriginal7 = exifDict![kCGImagePropertyExifGamma]
+//                let dateTimeOriginal8 = exifDict![kCGImagePropertyDepth]
+//                let dateTimeOriginal9 = exifDict![kCGImagePropertyPixelWidth]
+//                let dateTimeOriginal10 = exifDict![kCGImagePropertyJFIFYDensity]
+//                print("---------------------------------------------------")
+//                print(exifDict)
+//                print("---------------------------------------------------")
+////                print("dateTimeOriginal: \(dateTimeOriginal)")
+////                print("dateTimeOriginal: \(dateTimeOriginal1)")
+////                print("dateTimeOriginal: \(dateTimeOriginal2)")
+////                print("dateTimeOriginal: \(dateTimeOriginal3)")
+////                print("dateTimeOriginal: \(String(describing: dateTimeOriginal4))")
+////                print("dateTimeOriginal: \(dateTimeOriginal5)")
+////                print("dateTimeOriginal: \(dateTimeOriginal6)")
+////                print("dateTimeOriginal: \(dateTimeOriginal7)")
+////                print("dateTimeOriginal: \(dateTimeOriginal8)")
+////                print("dateTimeOriginal: \(dateTimeOriginal9)")
+////                print("dateTimeOriginal: \(dateTimeOriginal10)")
+//                
+//                for (key, value) in imageProperties2 {
+//                    print("asdasdadasd in dic")
+//                    print(key)
+//                    print(value)
+//                }
+//                print("imageProperties2: \(imageProperties2)")
+//               print("imageProperties2: \(imageProperties2.count)")
+//            }
             
         })
         print("asdasdadasd 13")
