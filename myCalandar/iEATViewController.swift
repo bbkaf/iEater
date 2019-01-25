@@ -638,7 +638,8 @@ class iEATViewController: BaseViewController, SFSpeechRecognizerDelegate {
         var dataEntries: [BarChartDataEntry] = []
         
         for i in 0..<dataPoints.count {
-            let dataEntry = BarChartDataEntry(x: Double(i), yValues: [min(values[i], 99900.0)], label: dataPoints[i])
+//            let a = BarChartDataEntry(x: Double(i), yValues: <#T##[Double]#>, icon: nil, data: <#T##AnyObject?#>)
+            let dataEntry = BarChartDataEntry(x: Double(i), yValues: [min(values[i], 99900.0)],icon: nil, data: dataPoints[i] as AnyObject)
             dataEntries.append(dataEntry)
         }
         
